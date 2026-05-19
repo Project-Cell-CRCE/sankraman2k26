@@ -2,6 +2,28 @@
 
 A stunning, fully responsive Next.js website for **Prakalp 4.0**, a college-level innovation challenge and hackathon event. This project showcases modern web design with smooth animations, glassmorphism UI patterns, and an immersive "Dune"-themed aesthetic.
 
+## Website Overview
+
+The Sankraman website is a modern, immersive landing page for **Prakalp 4.0**, an innovation challenge hosted by FR.CRCE. The site features a striking desert-themed aesthetic with smooth animations and an interactive AI chatbot assistant.
+
+### 📸 Website Showcase
+
+#### Landing & Hero Page
+![Sankraman Home Page](assets/home_page.png)
+*The hero section features the iconic "Sankraman" branding with smooth parallax effects and navigation menu. The site uses warm orange and dark brown tones to create an epic, adventure-themed atmosphere.*
+
+#### Event Information & AI Chatbot
+![Prakalp Event Assistant](assets/chatbot.png)
+*PRAKAI 4.0 - The intelligent event assistant chatbot powered by NLP technology. Users can ask questions about registration, categories, dates, fees, and event logistics. The chatbot provides real-time information and assists with event navigation.*
+
+#### Footer with Council Information
+![Footer & Councils](assets/footer_section.png)
+*The footer displays organizing councils (IEEE CRCE, Project Cell, WIE CRCE) with their contact information and social media handles for easy communication.*
+
+#### Loading Screen Animation
+![Loading Screen](assets/loading_screen.png)
+*Beautiful animated loading sequence that greets users when they first visit the site, setting the tone for the immersive experience.*
+
 ## Features
 
 ### 🎨 Design & UX
@@ -163,7 +185,54 @@ npm run lint
 - **Contact Heads**: 3 organizers with WhatsApp links
 - Glass-morphic cards with hover lift effects
 
-## Color Scheme
+## 🤖 AI Chatbot - PRAKAI 4.0
+
+The Sankraman website features **PRAKAI** (Prakalp AI Assistant), an intelligent event assistant powered by **Natural Language Processing (NLP)** technology. This conversational AI is designed to provide seamless event information and support to participants.
+
+### Chatbot Capabilities
+
+PRAKAI leverages NLP to understand and respond to user queries about:
+
+#### Event Information
+- **Event Date & Time**: Provides Prakalp 4.0 schedule (18 April 2026, Saturday)
+- **Venue Details**: Shares location information (FR.CRCE, Bandra, Mumbai)
+- **Event Categories**: Information about different competition categories and rounds
+
+#### Registration & Logistics
+- **How to Register**: Step-by-step registration guidance
+- **Registration Fee**: Details about participation fees
+- **Requirements**: Participant eligibility and team requirements
+- **Event Rules**: Rules and guidelines for competition
+
+#### Interactive Features
+- **Real-time Responses**: Uses NLP to parse user intent and provide contextual answers
+- **Conversation Flow**: Maintains context across multiple messages
+- **Suggestion Buttons**: Quick-action buttons for common queries:
+  - "How to register?"
+  - "Registration fee"
+  - "Event categories"
+  - "Event rounds"
+- **Friendly Assistant**: Welcoming tone with emoji support and helpful prompts
+
+### Technical Implementation
+
+- **NLP Engine**: Advanced natural language understanding for semantic meaning extraction
+- **Intent Classification**: Categorizes user queries into predefined intents
+- **Entity Recognition**: Extracts key information (dates, fees, locations) from user input
+- **Response Generation**: Generates contextual responses based on trained models
+- **Context Management**: Remembers conversation history for coherent multi-turn dialogs
+- **Fallback Handling**: Gracefully handles unknown queries with helpful suggestions
+
+### User Experience
+
+The chatbot is embedded as a floating widget on the website with:
+- **Minimalist Design**: Follows the Dune-inspired aesthetic with glassmorphism effects
+- **Easy Access**: Always-available chat icon for quick queries
+- **Mobile Optimized**: Responsive design works perfectly on mobile devices
+- **Low Latency**: Instant responses for quick event information lookup
+- **Accessibility**: Clear, readable text with high contrast against dark backgrounds
+
+
 
 - **Primary Orange**: `#ff6600` - Accent color for all CTAs and highlights
 - **Light Cream**: `#ffedd5` - Text and foreground elements
